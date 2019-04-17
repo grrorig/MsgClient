@@ -13,7 +13,7 @@ header{
     padding:10px;
     border: 1px solid #dedede;
 }
-h1{
+#signUp{
     display:block;
   
     color: white;
@@ -68,4 +68,7 @@ textarea{
 }
 #sub:hover {
     opacity:.9;
+}
+p{
+  text-align: right;  
 }
