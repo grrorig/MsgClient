@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+body{
+    text-align: center;
+    background-color: navajowhite;
+}
+form {
+    text-align: center;
+
+}
+h1 {
+    background-color: gray;
+    padding: 0;
+    border: 0;
+    height: 50px;
+}
