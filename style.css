@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px "Helvetica", sans-serif;
+    background: url(images/bg.png);
+}
+h1, h2 {
+    color: #00d4fa;
+    font: 30px "Helvetica", sans-serif;
+    margin: 0 0 10px 0;
+}
+#page-wrap {
+    width: 500px;
+    margin: 30px auto;
+    position: relative;
+}
+
+#chat-wrap {
+    border: 1px solid #eee;
+    margin: 0 0 15px 0;
+}
+#chat-area {
+    height: 300px;
+    overflow: auto;
+    border: 1px solid #666;
+    padding: 20px;
+    background: white;
+}
+#chat-area span {
+    color: white;
+    background: #333;
+    padding: 4px 8px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 8px;
+    margin: 0 5px 0 0;
+}
+#chat-area p {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#name-area {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    color: white;
+    font: bold 12px "Helvetica", sans-serif;
+    text-align: right;
+}
+#name-area span {
+    color: #00d4fa;
+}
+
+
+
+#send-message-area p {
+    float: left;
+    color: white;
+    padding-top: 27px;
+    font-size: 14px;
+}
+#sendie {
+    border: 3px solid #999;
+    width: 360px;
+    padding: 10px;
+    font: 12px "Helvetica", sans-serif;
+    float: right;
+}
+
+#room-select {
+    height: 200px;
+    width: 400px;
+    border: 1px solid #666;
+    padding: 20px;
+    background: white;
+}
+#room-select option {
+    padding: 8px;
+    font-size: 15px;
+}
+#section label, #name-input {
+    float: left;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+#userid {
+    height: 30px;
+}
+#userid p {
+    font-size: 14px;
+}
