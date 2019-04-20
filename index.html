@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+	<title>Chat Room</title>
+
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="page-wrap">
+    
+    <div id="header">
+        <h1>Chat Page</h1>
+    </div>
+
+    <div id="section">
+        <form method="POST" action="room/index.php">
+            <select id="room-select" name="roomid" size="3" multiple>
+                <option value="East">East Room</option>
+                <option value="North">North Room</option>
+                <option value="South">South Room</option>
+            </select>
+            <br>
+
+            <label>Desired Username:</label>
+            <div id="name-input">
+                <input type="text" id="userid" name="userid">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
