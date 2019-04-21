@@ -2,3 +2,12 @@
 <span>James</span>Hi 
 <span>James</span>hello 
 <span>Thang</span>Testing selected 
+<span>Thang</span>
+<span>Thang</span>
+<span>Thang</span>
+<span>Thang</span>
+<span>Thang</span>
+<span>Thang</span>hello 123 
+<span>Thang</span>Testing 
+<span>Thang</span><img src='emotes/TriHard.png'/> 7 
+<span>Thang</span><img src='emotes/TriHard.png'/> 
