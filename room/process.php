@@ -40,8 +40,8 @@
 			$nickname = htmlentities(strip_tags($_POST['nickname']));
 			$reg_exUrl = "/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/";
 			$message = htmlentities(strip_tags($_POST['message']));
-			$patterns = array("/TriHard/", "/---/");
-			$replacements = array("<img src='emotes/TriHard.png'/>", "---");
+			$patterns = array("/TriHard/", "/FeelsGoodMan/");
+			$replacements = array("<img src='emotes/TriHard.png'/>", "<img src='emotes/FeelsGoodMan.png'/>");
 			if(($message) != "\n") {
         
 				if(preg_match($reg_exUrl, $message, $url)) {
