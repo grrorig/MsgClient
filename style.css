@@ -36,10 +36,15 @@ h1, h2 {
         -moz-border-radius: 5px;
         -webkit-border-radius: 8px;
         margin: 0 5px 0 0;
+        font-size: 14px;
     }
     #chat-area p {
         padding: 8px 0;
         border-bottom: 1px solid #ccc;
+        font-size: 14px;
+    }
+    #chat-area img {
+        vertical-align: top;
     }
 
 #name-area {
