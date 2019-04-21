@@ -1,3 +1,4 @@
 <span>James</span>alo 
 <span>James</span>Hi 
 <span>James</span>hello 
+<span>Thang</span>Testing selected 
