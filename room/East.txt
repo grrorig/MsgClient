@@ -1,13 +1,7 @@
-<span>James</span>alo 
-<span>James</span>Hi 
-<span>James</span>hello 
-<span>Thang</span>Testing selected 
-<span>Thang</span>
-<span>Thang</span>
-<span>Thang</span>
-<span>Thang</span>
-<span>Thang</span>
-<span>Thang</span>hello 123 
-<span>Thang</span>Testing 
-<span>Thang</span><img src='emotes/TriHard.png'/> 7 
-<span>Thang</span><img src='emotes/TriHard.png'/> 
+<span>Thang</span><img src='emotes/TriHard.png' title='TriHard'/> 7 
+<span>Thang</span><img src='emotes/smile.gif'/> 
+<span>Thang</span><img src='emotes/bigsmile.png'/> 
+<span>Thang</span><img src='emotes/tongue.png'/> 
+<span>Thang</span><img src='emotes/sad.png'/> 
+<span>Thang</span><img src='emotes/TriHard.png' title='TriHard'/> 
+<span>Thang</span><img src='emotes/FeelsGoodMan.png' title='FeelsGoodMan'/> 
