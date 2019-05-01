@@ -1,6 +1,11 @@
 <?php
 	$nickname = $_POST['userid'];
+	$password = $_POST['userpass'];
 	$roomid = $_POST['roomid'];
+
+	$fp = fopen("./users/$nickname.txt", "r") or die("Wrong or non-existant user name!");
+	$realpassword = fgets($fp);
+	if ($password != $realpassword) die("Wrong password!");
 ?>
 
 <!DOCTYPE html>
@@ -71,6 +76,16 @@
 				}
 			 });
 
+			 $("#emote-button").click(function() {
+				$(".dropdown-content").toggle();
+			 }) ;
+
+			 $("#emote-dropdown img").click(function() {
+				console.log("Emoting");
+				var emoteName = $(this).attr('title');
+				$("#sendie").val($("#sendie").val() + emoteName + " ");
+			 });
+
 		});
 
 	</script>
@@ -95,6 +110,15 @@
 			<p>Your message: </p>
 			<textarea id="sendie" maxlength='100'></textarea>
 		</form>
+
+		<div class="dropdown">
+			<button id="emote-button" class="dropbtn">Emotes</button>
+			<div id="emote-dropdown" class="dropdown-content" display="none">
+				<img src="emotes/TriHard.png" title="TriHard"/>
+				<img src="emotes/FeelsGoodMan.png" title="FeelsGoodMan"/>
+				<img src="emotes/KappaPride.png" title="KappaPride"/>
+			</div>
+		</div>
 
 	</div>
 

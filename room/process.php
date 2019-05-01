@@ -10,7 +10,8 @@
         	if(file_exists($_POST['file'])) {
             	$lines = file($_POST['file']);
         	}
-        	$log['state'] = count($lines); 
+			//$log['state'] = count($lines); 
+			$log['state'] = 0;
         	break;	
     	
     	case('update'):
