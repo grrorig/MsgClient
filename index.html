@@ -22,17 +22,25 @@
     <div id="section">
         <form method="POST" action="room/index.php">
             <select id="room-select" name="roomid" size="3" multiple>
-                <option value="East">East Room</option>
+                <option selected value="East">East Room</option>
                 <option value="North">North Room</option>
                 <option value="South">South Room</option>
             </select>
+            <br><br>
+
+            <div id="name-input">
+                <label>Username</label>
+                <input type="text" id="userid" name="userid">
+                <br>
+                
+                <label>Password</label>
+                <input type="password" id="userpass" name="userpass">
+                <br><br>
+                <input type="submit" value="Login" id="submit">
+            </div>
             <br>
 
-            <label>Desired Username:</label>
-            <div id="name-input">
-                <input type="text" id="userid" name="userid">
-                <input type="submit" value="Submit" id="submit">
-            </div>
+            <p><a href="createAccount.php" target="_blank">Or click here if you don't have a username</a></p>
         </form>
     </div>
 

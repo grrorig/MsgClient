@@ -54,7 +54,7 @@ function updateChat() {
 					}
 				}
 				// Enable scrolling
-				document.getElementById('chat-area').scrollTop = document.getElementById('chat-area').scrollHeight;
+				//document.getElementById('chat-area').scrollTop = document.getElementById('chat-area').scrollHeight;
 				instanse = false;
 				state = data.state;
 			},
@@ -82,6 +82,7 @@ function sendChat(message, nickname) {
 
 		success: function(data){
 			updateChat(); // Update again after messaged is written to file by process.php
+			document.getElementById('chat-area').scrollTop = document.getElementById('chat-area').scrollHeight;
 		},
 	});
 }
