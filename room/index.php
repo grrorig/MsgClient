@@ -96,7 +96,9 @@
 	
 	<div id="page-wrap">
 		
-		<?php echo "<h2>Welcome to $roomid Room!</h2>" ?>
+		<?php echo "<img src='../images/".$roomid."Room.png' id='room-banner'" ?>
+		<br>
+		<h2>Welcome to the chat room</h2>
 
 		<p id="name-area"></p>
 

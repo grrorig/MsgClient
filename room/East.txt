@@ -1,7 +1,3 @@
-<span>Thang</span><img src='emotes/TriHard.png' title='TriHard'/> 7 
-<span>Thang</span><img src='emotes/smile.gif'/> 
-<span>Thang</span><img src='emotes/bigsmile.png'/> 
-<span>Thang</span><img src='emotes/tongue.png'/> 
-<span>Thang</span><img src='emotes/sad.png'/> 
-<span>Thang</span><img src='emotes/TriHard.png' title='TriHard'/> 
-<span>Thang</span><img src='emotes/FeelsGoodMan.png' title='FeelsGoodMan'/> 
+<span>Thang</span>Hi 
+<span>John</span><img src='emotes/TriHard.png' title='TriHard'/> 
+<span>Thang</span>Hi 
